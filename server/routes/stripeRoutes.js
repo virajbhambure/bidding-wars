@@ -71,8 +71,8 @@ router.post("/create-checkout-session", async (req, res) => {
     line_items: [lineItem],
     mode: "payment",
     customer: customer.id,
-    success_url: "https://bidding-wars.vercel.app/success",
-    cancel_url: "https://bidding-wars.vercel.app/cancel",
+    success_url: "https://bidding-wars-frontend.vercel.app/success",
+    cancel_url: "https://bidding-wars-frontend.vercel.app/cancel",
   });
 
   res.json({ id: session.id });
