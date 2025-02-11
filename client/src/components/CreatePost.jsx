@@ -25,10 +25,10 @@ const CreatePost = () => {
   function uploadToCloudinary(e) {
     const data = new FormData();
     data.append("file", e.target.files[0]);
-    data.append("upload_preset", "zngtpman");
-    data.append("cloud_name", "dxykak5rw");
+    data.append("upload_preset", "biddingwars");
+    data.append("cloud_name", "virajbhambure");
 
-    fetch("https://api.cloudinary.com/v1_1/dxykak5rw/image/upload", {
+    fetch("https://api.cloudinary.com/v1_1/virajbhambure/image/upload", {
       method: "post",
       body: data,
     })
