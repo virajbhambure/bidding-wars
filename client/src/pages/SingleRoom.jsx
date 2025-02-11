@@ -9,7 +9,7 @@ import { FETCH_ROOM, UPDATE_BIDS } from "@/constants/actionTypes";
 import moment from "moment";
 import { loadStripe } from "@stripe/stripe-js";
 
-const ENDPOINT = "https://bidding-wars-backend.vercel.app";
+const ENDPOINT = "https://bidding-wars-six.vercel.app";
 
 const SingleRoom = () => {
   const dispatch = useDispatch();
@@ -161,7 +161,7 @@ const SingleRoom = () => {
     };
 
     const response = await fetch(
-      "https://bidding-wars-backend.vercel.app/api/stripe/create-checkout-session",
+      "https://bidding-wars-six.vercel.app/api/stripe/create-checkout-session",
       {
         method: "POST",
         headers: headers,

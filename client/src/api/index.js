@@ -3,7 +3,7 @@ import axios from "axios"; //used to make api calls
 axios.defaults.withCredentials = true;
 
 const API = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://bidding-wars-six.vercel.app",
 }); //points to backend routes
 
 export const createPost = (newPost) => API.post("/api/room", newPost);
