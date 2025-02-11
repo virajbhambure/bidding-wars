@@ -1,0 +1,10 @@
+export const START_LOADING = "START_LOADING";
+export const END_LOADING = "END_LOADING";
+export const FETCH_ALL_ROOMS = "FETCH_ALL_ROOMS";
+export const FETCH_ROOM = "FETCH_ROOM";
+export const JOIN_ROOM = "FETCH_ROOM";
+export const CREATE_POST = "CREATE_POST";
+export const PLACE_BID = "PLACE_BID";
+export const UPDATE_BIDS = "UPDATE_BID";
+export const FETCH_ALL_BIDS = "FETCH_ALL_BIDS";
+export const FETCH_ORDERS = "FETCH_ORDERS";
