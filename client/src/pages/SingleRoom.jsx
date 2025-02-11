@@ -153,7 +153,7 @@ const SingleRoom = () => {
   const makePayment = async () => {
     setInProcess(true);
     const stripe = await loadStripe(
-      "pk_test_51Ptrd0Kr2vWG4UII1jNdHmT0zC28evCW85B5vtvbVuP6zWretaX4Aq8cz8Qt4dUeVN6Bcy6J2USlOlfJMIVqwxBS00ytRUAzR0"
+      "pk_test_51QoIFHH04jdQ4VbXFCXE2wkbi5WSaowkgsIjGuMglODrOgCwwEWC37LgRGLQ1OrW74TPOjaEO8310c1u0KxRbAwB00FMPnct1G"
     );
 
     const headers = {
